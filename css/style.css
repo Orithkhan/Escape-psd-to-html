@@ -1,0 +1,497 @@
+@font-face {
+    font-family: Brandon_reg;
+    src: url(../fonts/Brandon_reg.ttf);
+}
+@font-face {
+    font-family: Brandon_bold;
+    src: url(../fonts/Brandon_bld.ttf);
+}
+
+/*==== common css ====*/
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.stracture{
+	max-width: 940px;
+	margin: 0 auto;
+}
+.fix{
+	overflow: hidden;
+}
+/*==== common css ====*/
+/*==== header start ====*/
+header{
+	background:url(../images/banner.jpg) scroll center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,.4);
+	z-index: -1;
+}
+.main_header{
+	padding-top: 40px;
+}
+.logo{
+	width:20%;
+	float: left;
+}
+.menu{
+	width: 80%;
+	margin-top: 3px;
+}
+.main_menu{}
+.main_menu ul{
+	float: right;
+}
+.main_menu ul li{
+	display: inline-block;
+}
+.main_menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	color:#fff;
+	display: block;
+	padding:0 20px;
+	text-transform: capitalize;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	transition: 0.5s all linear;
+}
+.main_menu ul li:last-child a{
+	padding-right: 0;
+}
+.main_menu ul li a:hover{
+	color: #e0e0e0;
+}
+.title{
+	padding: 100px 0;
+	text-align: center;
+}
+.title h3{
+	font-size: 32px;
+	color:#fff;
+	font-family: Brandon_reg;
+	font-weight: 400;
+}
+.title h1{
+	font-size: 65px;
+	color:#fff;
+	text-transform: uppercase;
+	padding: 30px 0;
+	font-family: Brandon_bold;
+	font-weight: 700;
+}
+.title button{
+	color: #fff;
+	font-size: 23px;
+	font-family: Brandon_bold;
+	font-weight: 400;
+	background: transparent;
+	border:none;
+	border: 2px solid #fff;
+	padding: 10px 40px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	transition: 0.5s all linear;
+}
+.title button:hover{
+	color: #e0e0e0;
+	border: 2px solid #e0e0e0;
+}
+/*==== header end ====*/
+/*==== content start ====*/
+.content_area{
+	padding: 80px 0;
+}
+.content{}
+.main_content{
+	width:65%;
+	float: left;
+	padding-left: 30px;
+}
+.main_content h3, .main_content_2 h3{
+	font-size: 59px;
+	 font-family: Brandon_reg;
+	 font-weight: 400;
+}
+.main_content h3 span, .main_content_2 h3 span{
+	font-family: Brandon_bold;
+	font-weight: 700;
+	margin-left: 8px;
+}
+.main_content p, .main_content_2 p{
+	font-size: 18px;
+	 font-family: Brandon_reg;
+	 font-weight: 400;
+	 padding-top: 20px;
+	 padding-bottom: 20px;
+}
+.content_image{
+	width: 30%;
+	float: right;
+}
+.content_image img{
+	float: right;
+	padding-top: 45px;
+	padding-right: 30px;
+}
+/*==== content end ====*/
+/*==== content_2 start ====*/
+.content_area_2{
+	background-color: #fafafa;
+	padding: 80px 0;
+}
+.content_1{}
+.content_image_2{
+	width: 25%;
+	float: left;
+	padding-top: 50px;
+	padding-left: 25px;
+}
+.content_image_2 img{
+	width: 100%;
+}
+.main_content_2{
+	width:64%;
+	float: right;
+	padding-right: 30px;
+}
+/*==== content_2 end ====*/
+/*==== service start ====*/
+.service_area{
+	padding: 80px 20px;
+}
+.main_service{}
+.single_service{
+	width:45%;
+	float: left;
+	margin-bottom: 40px;
+	margin-left: 45px;
+
+}
+
+.service_icon{
+	float: left;
+	color: #fff;
+	font-size:20px;
+	background-color: #000;
+	padding: 20px;
+	border-radius: 50%;
+	margin-right: 20px;
+	margin-top: 5px;
+}
+.service_icon i{
+	font-size: 21px;
+}
+.service_content{
+ 	width: 80%;
+ 	float: right;
+}
+.service_content h4{
+	font-family: Brandon_reg;
+	font-size: 22px;
+	font-weight: 400;
+}
+.service_content p{
+	line-height: 18px;
+	padding-right: 53px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	color:#777777;
+	margin-top: 10px;
+}
+/*==== service end ====*/
+/*==== clients start ====*/
+.clients_area{
+	background-color: #fafafa;
+	padding: 70px 0;
+}
+.main_client{}
+.clients_heading{
+	text-align: center;
+}
+.clients_heading h2{
+	font-size: 59px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+}
+.clients_heading h2 span{
+	 font-family: Brandon_bold;
+	 font-weight: 700;
+}
+.clients_heading p{
+	font-size: 22px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	color:#777777;
+}
+.single_client{
+	margin-top: 50px;
+	position: relative;
+}
+.single_client:before{
+	position: absolute;
+	content: "";
+	height: 35px;
+	width:28px;
+	left: 259px;
+    top: 42%;
+	background: url(../images/content_shape.png);
+}
+.clients_img{
+	width:30%;
+	float: left;
+}
+.clients_img img{
+	
+}
+.clients_feedback{
+	border: 5px solid #fff;
+	background-color: #fff;
+	padding: 25px 50px;
+	margin-top: 30px;
+	
+}
+.clients_feedback p{
+	font-size: 26px;
+	font-family: Brandon_reg;
+	color: #777777;
+	line-height: 35px;
+}
+.clients_feedback span{
+	color: #7690c5;
+	font-size: 20px;
+	font-family: Brandon_reg;
+}
+.single_client_2{
+	margin-top: 30px;
+	position: relative;
+}
+.single_client_2:before{
+	position: absolute;
+	content: "";
+	height: 35px;
+	width:28px;
+	right: 292px;
+    top: 42%;
+	background: url(../images/content_shape_2.png);
+
+}
+.clients_feedback_2{
+	border: 5px solid #fff;
+	background-color: #fff;
+	padding: 25px 50px;
+	margin-top: 30px;
+	width: 55%;
+	float: left;
+}
+.clients_feedback_2 p{
+	font-size: 26px;
+	font-family: Brandon_reg;
+	color: #777777;
+	line-height: 35px;
+}
+.clients_feedback_2 span{
+	color: #7690c5;
+	font-size: 20px;
+	font-family: Brandon_reg;
+}
+.clients_img_2{
+	width:30%;
+	float: right;
+}
+.clients_img_2 img{
+	margin-left: 55px;
+}
+/*==== clients end ====*/
+/*==== marcketplace start ====*/
+.marcketplace_area{
+	padding: 60px 0;
+}
+.marcketplace{}
+.single_marcketplace{
+	width: 23%;
+	float: left;
+	text-align: center;
+}
+.single_marcketplace img{}
+/*==== marcketplace end ====*/
+/*==== team start ====*/
+.team_area{
+	background-color: #000;
+	padding:60px 0;
+}
+.team{}
+.team_heading{
+	text-align: center;
+}
+.team_heading h2{
+	color: #fff;
+	font-size: 59px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+}
+.team_heading h2 span{
+	font-family: Brandon_bold;
+	font-weight: 700;
+}
+.team_heading p{
+	color: #777777;
+	font-size: 22px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+}
+.team_content{
+	width:33%;
+	float: left;
+	text-align: center;
+}
+.single_team_content{
+	margin-top: 60px;
+	
+}
+.single_team_content img{}
+.single_team_content h3{
+	color: #fff;
+	font-size: 18px;
+	font-family: Brandon_bold;
+	font-weight: 700;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.single_team_content p{
+	color: #fff;
+	font-size: 16px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+}
+.social_icon{
+	margin-left: 58px;
+	margin-top: 0px;
+}
+
+.single_icon{
+	float: left;
+	padding:10px;
+}
+.single_icon i{
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 38px;
+    color: #fff;
+    padding-top: 15px;
+}
+.team_text{
+	color: #fff
+}
+/*==== team end ====*/
+/*==== contact start ====*/
+.contact_area{
+	background-color: #7690c5;
+	padding:80px 0;
+}
+.contact{}
+.contact_left{
+	width:50%;
+	float: left;
+}
+.contact_left_heading{}
+.contact_left_heading h2{
+	font-size: 59px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	color: #fff;
+}
+.contact_left_heading h2 span{
+	font-family: Brandon_bold;
+	font-weight: 700;
+}
+.contact_left_heading p{
+	font-size: 18px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	color: #fff;
+}
+.contact_left_social{
+	color: #fff;
+}
+.single_social{
+	width: 50%;
+	float: left;
+	margin: 20px 0;
+}
+.single_social i{
+	float: left;
+	font-size: 25px;
+	margin-right: 15px;
+}
+.single_social p{
+	font-size: 18px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+}
+.contact_right{
+	width: 50%;
+	
+}
+.contact_form{
+	text-align: right;
+}
+.name{
+	width:430px;
+	font-size: 18px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	padding:10px;
+	border-radius: 5px;
+	border:none;
+}
+.email{
+	width:430px;
+	font-size: 18px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	margin: 20px 0;
+	padding:10px;
+	border-radius: 5px;
+	border:none;
+}
+.textarea{
+	width:431px;
+	font-size: 18px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	height: 210px;
+	padding:10px;
+	border-radius: 5px;
+	border:none;
+}
+/*==== contact end ====*/
+/*==== footer start ====*/
+footer{
+	background-color: #7690c5;
+	padding:0px 0;
+	
+}
+.main_footer{}
+.footer_content{
+	border-top: 1px solid #87a0d2;
+}
+.footer_content p{
+	color: #fff;
+	font-size: 18px;
+	font-family: Brandon_reg;
+	font-weight: 400;
+	text-align: center;
+	margin: 30px 0;
+}
+/*==== footer ====*/
