@@ -374,7 +374,7 @@ header{
 	font-weight: 400;
 }
 .social_icon{
-	margin-left: 58px;
+	margin-left: 50px;
 	margin-top: 0px;
 }
 
@@ -385,8 +385,8 @@ header{
 .single_icon i{
     border: 2px solid #fff;
     border-radius: 50%;
-    height: 30px;
-    width: 38px;
+    height: 29px;
+    width: 43px;
     color: #fff;
     padding-top: 15px;
 }
